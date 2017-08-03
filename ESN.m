@@ -19,17 +19,17 @@ classdef ESN < handle
         function esn = ESN(Nr, varargin)
         % Constructor
         %
-        %   args:
-        %       Nr: reservoir's size
+        % args:
+        %   Nr: reservoir's size
         %   
-        %   optional args:
-        %       'leakRate': leakage rate
-        %       'spectralRadius': spectral radius
-        %       'inputScaling': input weights scale 
-        %       'biasScaling': bias weights scale 
-        %       'regularization': regularization parameter
-        %       'connectivity': reservoir connectivity
-        %       'readoutTraining': readout training method
+        % optional args:
+        %   'leakRate': leakage rate
+        %   'spectralRadius': spectral radius
+        %   'inputScaling': input weights scale 
+        %	'biasScaling': bias weights scale 
+        %	'regularization': regularization parameter
+        %	'connectivity': reservoir connectivity
+        %	'readoutTraining': readout training method
             
             esn.Nr = Nr;
             esn.alpha = 1;
